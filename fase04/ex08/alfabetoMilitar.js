@@ -1,6 +1,7 @@
 
 
 function alfabetoMilitar (num){
+    num = num.toLowerCase()
     if (num=="a")
     return "alpha" 
     else if (num=="e")
