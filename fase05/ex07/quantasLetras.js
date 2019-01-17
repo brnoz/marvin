@@ -7,5 +7,3 @@ function classificar (w) {
     return y
     
 }
-
-console.log(classificar(["asdasd","sdsdf","sdfsd"]))
