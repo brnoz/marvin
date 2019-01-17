@@ -1,6 +1,6 @@
 
 
 function segundo(x){
-    x[1] = "Marvin"
+    x.splice(1,0,"Marvin")
     return x
 }
