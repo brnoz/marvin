@@ -16,5 +16,3 @@ function somaPares(a,z){
         x+= w[y]}
         return x
 }
-
-console.log(somaPares(10,16))
