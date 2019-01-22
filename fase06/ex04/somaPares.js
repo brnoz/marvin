@@ -8,7 +8,6 @@ function somaPares(a,z){
     else
         a= Math.floor(a)
     z=Math.floor(z)
-    console.log(z)
     for(i=a;i<=z;i++){
         if (Number.isInteger(i/2)){
         w.push(i);
