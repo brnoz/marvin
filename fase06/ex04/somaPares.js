@@ -12,8 +12,9 @@ function somaPares(a,z){
         if (Number.isInteger(i/2)){
         w.push(i);
     }}
-    console.log(w)
     for(y=0;y<w.length;y++){
         x+= w[y]}
         return x
 }
+
+console.log(somaPares(10,16))
