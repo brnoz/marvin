@@ -1,5 +1,5 @@
 
-function primo(a,z){
+function somaPares(a,z){
     x=0
     i=0
     w=[]
