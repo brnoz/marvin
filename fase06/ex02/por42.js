@@ -1,14 +1,13 @@
 
-
-function ateZero(x){
+function por42(a,z){
     w=[]
-    if (x>0)
-    for (i=0;i<=x;i++){
+    for(i=a;i<=z;i++){
+        if (Number.isInteger(i/42)){
         w.push(i);
-    }
+    }}
+    if (w.length>1)
+    return w[1]
     else
-    for (i=x;i<=0;i++)
-        w.push(i)
-    
-    return w
+    console.log("Não encontrado")
+    return false
 }
