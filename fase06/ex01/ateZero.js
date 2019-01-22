@@ -3,7 +3,7 @@
 function ateZero(x){
     w=[]
     if (x>0)
-    for (i=x;i>0-1;i--){
+    for (i=0;i<=x;i++){
         w.push(i);
     }
     else
