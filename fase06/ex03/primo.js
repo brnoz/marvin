@@ -2,12 +2,12 @@
 
 function primo(x){
     w=[]
-    for(i=0;i<x;i++){
+    for(i=0;i<=x;i++){
         if (Number.isInteger(x/i)){
         w.push(i);
     }}
-    if (w.length>2)
-    return "Não"
-    else
+    if (w.length==2)
     return "Sim"
+    else
+    return "Não"
 }
