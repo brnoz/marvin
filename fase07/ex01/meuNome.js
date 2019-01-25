@@ -1,8 +1,5 @@
 
 
-function eu (){
-    return {nome : "Marvin",
-            idade: 42};
+function meuNome (obj){
+    return  obj.nome.toUpperCase().slice(0,1) + obj.nome.toLowerCase().slice(1);
 }
-
-console.log(eu())
