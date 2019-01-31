@@ -11,7 +11,8 @@ function precoMedio (){
                 resp=arguments[i].nome
 }
 }
-console.log ("O produto mais caro se chama """+ resp +""")
+console.log ("O produto mais caro se chama \""+ resp +"\"")
 return med/arguments.length
 
 }
+console.log(precoMedio({nome:"nicola",preco:10},{nome:"joao",preco:8},{nome:"pedro",preco:12}))
